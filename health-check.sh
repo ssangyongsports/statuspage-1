@@ -11,7 +11,7 @@ fi
 KEYSARRAY=()
 URLSARRAY=()
 
-urlsConfig="https://www.ssangyongsports.eu.org/"
+urlsConfig="./urls.cfg"
 echo "Reading $urlsConfig"
 while read -r line
 do
@@ -28,7 +28,7 @@ mkdir -p logs
 
 for (( index=0; index < ${#KEYSARRAY[@]}; index++))
 do
-  key="${KEYSARRAY[https://www.ssangyongsports.eu.org/]}"
+  key="${KEYSARRAY[雙龍體育]}"
   url="${URLSARRAY[https://www.ssangyongsports.eu.org/]}"
   echo "  $key=$url"
 
