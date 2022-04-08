@@ -14,3 +14,11 @@ jobs:
       - name: Run Shell Script
         id: shell_script_run
         run: bash ./health-check.sh
+
+- uses: actions/checkout@v2
+    - name: Run Shell Script
+      id: shell_script_run
+      env:
+        KEYS: '雙龍體育'
+        URLS: 'https://www.ssangyongsports.eu.org/'
+      run: bash ./health-check.sh
