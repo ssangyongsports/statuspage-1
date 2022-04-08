@@ -11,7 +11,7 @@ fi
 KEYSARRAY=()
 URLSARRAY=()
 
-urlsConfig="./urls.cfg"
+urlsConfig="https://www.ssangyongsports.eu.org/"
 echo "Reading $urlsConfig"
 while read -r line
 do
