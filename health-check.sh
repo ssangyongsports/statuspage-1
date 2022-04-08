@@ -28,8 +28,8 @@ mkdir -p logs
 
 for (( index=0; index < ${#KEYSARRAY[@]}; index++))
 do
-  key="${KEYSARRAY[index]}"
-  url="${URLSARRAY[index]}"
+  key="${KEYSARRAY[https://www.ssangyongsports.eu.org/]}"
+  url="${URLSARRAY[https://www.ssangyongsports.eu.org/]}"
   echo "  $key=$url"
 
   for i in 1 2 3 4; 
